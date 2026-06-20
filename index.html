@@ -674,13 +674,14 @@ button:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(198,149,92,0.
       </div>
     </div>
     <div id="ciCopied" style="display:none;color:var(--copper-lt);font-weight:600;font-size:.85em;margin-top:8px;font-family:var(--mono)"></div>
+  </div>
 
-    <div style="margin-top:22px;padding-top:18px;border-top:1px solid var(--line-2)">
-      <label class="fl">Paste your Skool check-in comment link</label>
-      <p style="font-size:.82em;color:var(--ink-faint);margin-bottom:8px;font-weight:300">Find your comment → ··· → Copy link → paste here. Auto-saves to the Link Tracker.</p>
-      <input type="url" id="ciSkoolLink" placeholder="https://www.skool.com/…" oninput="saveSkoolLink()">
-      <div id="ciSkoolSaved" style="display:none;color:var(--copper-lt);font-weight:600;font-size:.82em;margin-top:6px;font-family:var(--mono)">✓ Saved to Link Tracker</div>
-    </div>
+  <div class="card practice" style="margin-top:20px">
+    <div class="card-title">🔗 Save Your Check-In Link</div>
+    <div class="card-sub">After you post your check-in comment, paste the link here. Auto-saves to the Link Tracker.</div>
+    <p style="font-size:.82em;color:var(--ink-faint);margin-bottom:8px;font-weight:300">Find your comment → ··· → Copy link → paste here.</p>
+    <input type="url" id="ciSkoolLink" placeholder="https://www.skool.com/…" oninput="saveSkoolLink()">
+    <div id="ciSkoolSaved" style="display:none;color:var(--copper-lt);font-weight:600;font-size:.82em;margin-top:6px;font-family:var(--mono)">✓ Saved to Link Tracker</div>
   </div>
 </div>
 
